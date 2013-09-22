@@ -3,7 +3,7 @@
  * @author jixiangac<jixiangac@gmail.com>
  * @module TimeLines
  **/
-KISSY.add(function(S, Node, Base, Anim) {
+KISSY.add('s11', function(S, Node, Base, Anim) {
 
   'use strict';
 
@@ -25,6 +25,7 @@ KISSY.add(function(S, Node, Base, Anim) {
     init: function() {
       var self = this;
       self.el = self.get('target');
+      D.css(self.el, {'position':'relative'});
       self.curdate = self.get('curDate') || null;
       //标记是否有不同年份
       var initYear = new Date().getFullYear();
