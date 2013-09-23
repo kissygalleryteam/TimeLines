@@ -1,5 +1,7 @@
-## TimeLines是一个基于日期的事件提示的时间组件，目前在数据平台直播间中使用。
+## TimeLines
 
+     TimeLines是一个基于日期的事件提示的时间组件，目前在数据平台直播间中使用。
+     
 * 版本：1.0
 * 教程：[http://gallery.kissyui.com/TimeLines/1.0/guide/index.html](http://gallery.kissyui.com/TimeLines/1.0/guide/index.html)
 * demo：[http://gallery.kissyui.com/TimeLines/1.0/demo/index.html](http://gallery.kissyui.com/TimeLines/1.0/demo/index.html)
