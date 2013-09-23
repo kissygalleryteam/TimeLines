@@ -51,14 +51,14 @@ module.exports = function(grunt) {
         copy: {
             main: {
                 files: [
-                    {src: ['<%= pkg.version %>/index.css'], dest: '<%= pkg.version %>/build/index.css'}
+                    {src: ['<%= pkg.version %>/timeline.css'], dest: '<%= pkg.version %>/build/timeline.css'}
                 ]
             }
         },
         cssmin: {
             combine: {
                 files: {
-                    '<%= pkg.version %>/build/index-min.css': ['<%= pkg.version %>/build/index.css']
+                    '<%= pkg.version %>/build/timeline-min.css': ['<%= pkg.version %>/build/timeline.css']
                 }
             }
         }
@@ -69,5 +69,5 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-kmc');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-copy');
-    return grunt.registerTask('default', ['kmc', 'uglify']);
-};
+    return grunt.registerTask('default', ['kmc', 'uglify', 'copy', 'cssmin']);
+};  

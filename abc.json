@@ -1,13 +1,13 @@
 {
     "name": "TimeLines",
     "version": "1.0",
-    "desc": "",
-    "cover": "",
+    "desc": "一个事件轮播的TimeLine",
+    "cover": "http://gtms02.alicdn.com/tps/i2/T1UUS3FdFcXXX8JDoo-743-151.jpg",
     "tag":"timeline",
     "author": {
         "name": "jixiangac",
         "email": "jixiangac@gmail.com",
-        "page": ""
+        "page": "https://github.com/jixiangac"
     },
     "type": "kissy-gallery",
     "type-url": "http://gallery.kissyui.com/guide"

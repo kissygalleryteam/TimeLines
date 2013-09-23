@@ -1,9 +1,9 @@
 /**
- * @a TimeLine
+ * @fileoverview a simple TimeLine
  * @author jixiangac<jixiangac@gmail.com>
  * @module TimeLines
  **/
-KISSY.add('s11', function(S, Node, Base, Anim) {
+KISSY.add(function(S, Node, Base, Anim) {
 
   'use strict';
 
@@ -24,8 +24,11 @@ KISSY.add('s11', function(S, Node, Base, Anim) {
      */
     init: function() {
       var self = this;
-      self.el = self.get('target');
-      D.css(self.el, {'position':'relative'});
+      self.el = self.get('container');
+      D.css(self.el, {
+        'position':'relative',
+        'padding-top' : '10px'
+      });
       self.curdate = self.get('curDate') || null;
       //标记是否有不同年份
       var initYear = new Date().getFullYear();
@@ -410,6 +413,13 @@ KISSY.add('s11', function(S, Node, Base, Anim) {
   requires: [
     'node',
     'base',
-    'anim'
+    'anim',
+    './timeline.css'
   ]
 });
+
+/**
+ * TODO
+ * *支持日期的自动排序和同一日期的去重和事件合并
+ * *支持拖拽
+ */
