@@ -4,7 +4,7 @@ TimeLines是一个基于日期的事件提示的时间组件，目前在数据�
 
 ## 初始化组件
 ```
-   S.use('kg/timelines/3.0.1/index,kg/timelines/3.0.1/index.css', function (S, line) {
+   S.use('kg/timelines/3.0.0/index,kg/timelines/3.0.0/index.css', function (S, line) {
            var data = [
                {
                    "date" : "2013-09-01",

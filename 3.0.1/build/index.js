@@ -1,4 +1,4 @@
-KISSY.add('kg/timelines/3.0.1/index',["node","base","dom","event","anim"],function(S ,require, exports, module) {
+KISSY.add('kg/timelines/3.0.0/index',["node","base","dom","event","anim"],function(S ,require, exports, module) {
  var $ = require('node').all;
 var Base = require('base');
 var D = require('dom');
