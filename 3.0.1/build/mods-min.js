@@ -1,1 +1,0 @@
-KISSY.config("requires",{"kg/timelines/3.0.1/index":["node","base","dom","event","anim"],"kg/timelines/3.0.1/lib/main":["node","base"]});
